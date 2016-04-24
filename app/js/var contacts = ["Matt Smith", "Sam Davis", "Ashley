@@ -1,0 +1,18 @@
+var contacts = ["Matt Smith", "Sam Davis", "Ashley Jones"];
+
+var findContact = function(index){
+	return contacts[index];
+}
+
+var addContact = function(name){
+	return contacts;
+}
+
+var updateLastContact = function(newName){
+	contacts[contacts.length -1] = newName;
+	return contacts;
+}
+
+findContact(2);
+addContact("Mark");
+updateLastContact("Sammi");
